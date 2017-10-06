@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign in | Net@Work</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Fardos Corporation">
+    <link rel="shortcut icon" href="http://naw.netatwork.netdna-cdn.com/wp-content/themes/nitro/images/header.jpg" type="image/x-icon">   
+	<link rel="stylesheet" href="other/signin/signin.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
+</head>
+<body class="body-main">
+
+
+<div class="mainbodywrapper ">
+	<a target="_blank" href="https://www.netatwork.com"><img style="width: 160px;" class="logo" src="images/logo.png" /></a><br><br>
+	<div id="loginScreen" class="wrapper" >
+	<p class="error" id="errorMessage"></p>
+		<div class="loginwrapper">
+			<div class="part1">
+				<p>Access Your Dashboard</p>
+			</div>
+			<div class="part2">
+				<div class="leftpart">
+					<p>Email</p>
+				</div>
+				<div class="rightpart">
+					<input onkeypress="enterpressalert(event, this)" id="emailField" type="email" name="">
+				</div>
+			</div>
+			<div class="part2">
+				<div class="leftpart">
+					<p>Password</p><!--alifardos76-->
+				</div>
+				<div class="rightpart">
+					<input onkeypress="enterpressalert(event, this)" id="passwordField" type="password" name="">
+				</div>
+			</div>
+			<div class="part3">
+				<a onclick="hidelogin();" >Forgot Password</a>
+			</div>
+		</div>
+		<div id="signinButton" class="submit-button">
+			<a id="signinButton" onclick="signinUser();">Submit</a>
+		</div>
+	</div>
+	<div id="forgotPassword" class="wrapper hidden" >
+	<p class="error" id="reseterrorMessage"></p>
+
+		<div class="loginwrapper">
+			<div class="part1">
+				<p>Reset Your Password</p>
+			</div>
+			<div class="part2">
+				<div class="leftpart">
+					<p>Email</p>
+				</div>
+				<div class="rightpart">
+					<input  id="resetemailField" type="email" name="">
+				</div>
+			</div>
+			<div class="part2">
+				<div class="textreset" style="">
+					<p>That's okay. Enter your email and we'll send you a way to reset your password.</p>
+				</div>
+			</div>
+			<div class="part3" style="margin-top: -7px;">
+				<a onclick="nevermind();" >Never mind, go back</a>
+			</div>
+		</div>
+	<div class="submit-button">
+		<a onclick="resetPassword();">Submit</a>
+	</div>
+	</div>
+</div>
+
+
+
+
+
+<script src="other/signin/signin.js"></script>
+
+</body>
+</html>

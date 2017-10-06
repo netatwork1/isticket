@@ -1,0 +1,77 @@
+.ftable {
+	width: 100%;
+	border-radius: 3px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.ftable thead tr {
+	background-color: white !important;
+	font-weight: 900;
+	height: 30px;
+	padding-right: 10px;
+	border-bottom: 1px solid #dbdbdb;
+	text-transform: uppercase;
+	outline: none;
+}
+.tablesorter-header {
+	outline: none !important; 
+}
+
+.ftable tr th {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 11px;
+	font-weight: bold;
+}
+.ftable tr {
+	background-color: #fff;
+	height: 55px;
+	cursor: pointer;
+}
+.ftable tr:nth-child(even) {
+	background-color: #f2f7fc;
+}
+
+
+
+
+.ftable tr td {
+	padding-left: 10px;
+	padding-right: 10px;	
+	font-size: 12.5px;
+	letter-spacing: 0.5px;
+}
+.ftable tr .Tickettitle {
+
+	font-weight: 700;
+
+}
+.ftable tr td a {
+	padding-left: 10px;
+	color: black;
+	font-size: 15px;
+}
+td.toRight {
+	text-align: right;
+	margin-top: 8px;
+}
+th.toRight {
+	text-align: right;
+}
+.tagsStatus {
+	padding:5px 15px;
+	background-color: lightgrey;
+	border-radius: 3px;
+	font-size: 12px;
+}
+.tagsStatus.primary {
+	background-color: #0080FF;
+	color: white;
+}
+.tagsStatus.warning {
+	background-color: #ffae42;
+	color: white;
+}
+.tagsStatus.error {
+	background-color: red;
+	color: white;
+}

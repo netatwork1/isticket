@@ -11,7 +11,6 @@
     <link rel="shortcut icon" href="http://naw.netatwork.netdna-cdn.com/wp-content/themes/nitro/images/header.jpg" type="image/x-icon">   
 	<link rel="stylesheet" href="other/signin/signin.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
-    <title></title>
 </head>
 <body class="body-main">
 

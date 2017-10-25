@@ -1,7 +1,10 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="signin.aspx.cs" Inherits="Cloud_Desk.signin" %>
+
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Sign in | Net@Work</title>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Sign in | Net@Work</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Fardos Corporation">
@@ -11,55 +14,12 @@
 </head>
 <body class="body-main">
 
-<div class="background-images">
-	<div class="image-blur">
-		<table align="center">
-			<tr>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-			</tr>
-			<tr>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-			</tr>
-			<tr>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-			</tr>
-			<tr>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-				<td><img src="images/img1.jpg" /></td>
-			</tr>
+    <form id="form1" runat="server">
+        <div>
+        </div>
+    </form>
 
-		</table>
-	</div>
-</div>
-
-<div class="mainbodywrapper ">
+    <div class="mainbodywrapper ">
 	<a target="_blank" href="https://www.netatwork.com"><img style="width: 160px;" class="logo" src="images/logo.png" /></a><br><br>
 	<div id="loginScreen" class="wrapper" >
 	<p class="error" id="errorMessage"></p>
@@ -126,6 +86,7 @@
 
 
 <script src="other/signin/signin.js"></script>
+
 
 </body>
 </html>
